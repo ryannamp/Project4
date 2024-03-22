@@ -1,0 +1,88 @@
+/*Ryanna Petersen
+IS 201
+Prof. Gaskin */
+
+h1{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height:70px;
+    border-bottom: black solid;
+    text-align: center;
+}
+
+ol{
+    position: relative;
+    top: -250px;
+    left: 5px;
+    width: 200px;
+    padding-top: 10px;
+    border-right: solid 1px black;
+    z-index: 1;
+}
+
+div{   
+    position: relative;
+    top: 20px;
+    left: 290px;
+    width: 900px;
+    bottom: 55px;
+    text-align: center;
+    z-index: 2;
+    font-size: 20px;
+    
+}
+
+.right {
+    position: absolute;
+    border-left: solid 1px black;
+    font-size: 15px; 
+    width: 200px;
+    padding-top: 10px;
+    left: 1250px;
+    margin-top: 75px;
+    padding-left: 20px;
+    height: 250px;
+}
+
+.bborder {
+    border-bottom: solid 1px black;
+}
+
+.img1{
+    position: relative;
+    right: -290px;
+    top: -900px;
+}
+
+.img2{
+    position: relative;
+    right: -350px;
+    top: -900px;
+}
+
+.img3{
+    position: relative;
+    right: -290px;
+    top: -860px;
+}
+
+.address{
+    position: relative;
+    top: -2085px;
+    font-size: 15px;
+    text-align: left;
+    left: 5px;
+
+}
+
+.yb{
+    justify-content: center;
+}
+
+.cap{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    right: -650px;
+}
